@@ -38,7 +38,7 @@ const TPLogo = () => {
         <a href="/" className="flex items-center text-indigo-400 no-underline hover:no-underline font-bold text-2xl lg:text-4xl">
           <img id="tp-logo" src="/tp.svg" alt="tp-logo" className="w-24 mr-2" />
           <div className="site-title">
-            <div id="tp-logo-text" className="site-title-text">
+            <div id="tp-logo-text" className="site-title__text">
               TP
               {' '}
               <span>Demo</span>
@@ -46,49 +46,6 @@ const TPLogo = () => {
           </div>
         </a>
       </Link>
-      <style jsx>
-        {`
-        $slate: #3f3c3c;
-        $blue: #00b4ff;
-        @function rem($px, $base: 16) {
-          @return #{$px/$base}rem;
-        }
-        .site-tp-logo {
-          display: flex;
-          align-items: center;
-          transform: translateZ(0);
-        }
-        [id="tp-logo"] {
-          position: relative;
-          flex: 0 0 rem(60);
-          width: rem(60);
-          z-index: 2;
-          polygon {
-            transform-origin: 50%;
-          }
-          circle {
-            transform-origin: 80% 80%;
-          }
-        }
-        .site-title {
-          position: relative;
-          overflow: hidden;
-          margin-left: rem(-24);
-          z-index: 1;
-          transform: translateZ(0);
-        }
-        .site-title-text {
-          padding: rem(4) rem(6) rem(4) rem(28);
-          color: $slate;
-          font-size: rem(32);
-          font-weight: 800;
-          span {
-            margin-left: rem(0.25);
-            color: $blue;
-          }
-        }
-      `}
-      </style>
     </div>
   );
 };
