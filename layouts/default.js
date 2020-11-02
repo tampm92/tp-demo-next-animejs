@@ -34,7 +34,7 @@ const DefaultLayout = ({ background, children, contentClass }) => {
       </div>
       <a
         id="github-btn"
-        href="https://github.com/tampm92/tp-demo-nuxt-animejs"
+        href="https://github.com/tampm92/tp-demo-next-animejs"
         target="black"
         className="bg-gray-300 hover:bg-gray-600 p-2 rounded-full align-items-center items-center cent fixed bottom-2 right-2 cursor-pointer"
       >
