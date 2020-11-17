@@ -1,6 +1,6 @@
 import React from 'react'
-import TpLogo from '@/layouts/components/TpLogo'
-import Social from '@/layouts/components/Social'
+import TpLogo from '@/layouts/components/TpLogo.js'
+import Social from '@/layouts/components/Social.js'
 
 const Header = () => (
   <div className="w-full container mx-auto p-6">
