@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
-import anime from 'animejs';
-import Header from './components/Header';
+import React, { useEffect } from 'react'
+import PropTypes from 'prop-types'
+import anime from 'animejs'
+import Header from '@/layouts/components/Header'
 
 const DefaultLayout = ({ background, children, contentClass }) => {
   useEffect(() => {
@@ -90,14 +90,6 @@ const DefaultLayout = ({ background, children, contentClass }) => {
           <g />
         </svg>
       </a>
-      <style jsx>
-        {`
-        #github-btn {
-          
-        }
-      `}
-
-      </style>
     </div>
   );
 };

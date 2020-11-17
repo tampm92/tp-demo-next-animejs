@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Link from 'next/link';
 import anime from 'animejs';
 
-const TPLogo = () => {
+const TpLogo = () => {
   useEffect(() => {
     const tpLogoAnimation = anime.timeline({
       autoplay: true,
@@ -50,4 +50,4 @@ const TPLogo = () => {
   );
 };
 
-export default TPLogo;
+export default TpLogo;

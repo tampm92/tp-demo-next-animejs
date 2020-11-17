@@ -1,42 +1,27 @@
 {
   "name": "tp-demo-next-animejs",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.1.0",
   "description": "TP-Demo Next-AnimeJS",
-  "repository": "https://phanminhtam1992@github.com/tampm92/tp-demo-next-animejs.git",
-  "author": "tampm <tampm1995@gmail.com>",
-  "license": "MIT",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint pages/",
     "export": "next build && next export"
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0",
-    "@zeit/next-sass": "^1.0.1",
-    "animejs": "^3.2.0",
-    "autoprefixer": "^9.8.5",
-    "next": "^9.4.4",
-    "node-sass": "^4.14.1",
-    "postcss-loader": "^3.0.0",
-    "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "sass-loader": "^9.0.2",
-    "styled-jsx": "^3.3.0",
-    "styled-jsx-plugin-sass": "^1.0.0",
-    "svg-inline-loader": "^0.8.2",
-    "tailwindcss": "^1.5.2"
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "animejs": "^3.2.1",
+    "next": "10.0.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.5.0",
-    "eslint-config-airbnb": "^18.2.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.20.3",
-    "eslint-plugin-react-hooks": "^4.0.8"
+    "@svgr/webpack": "^5.5.0",
+    "@zeit/next-css": "^1.0.1",
+    "postcss-flexbugs-fixes": "^5.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "sass": "^1.29.0",
+    "tailwindcss": "^1.9.6"
   }
 }

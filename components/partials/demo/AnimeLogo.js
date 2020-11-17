@@ -183,7 +183,9 @@ const AnimeLogo = () => {
       const ratio = parentOffsetWidth / elOffsetWidth;
       const invertedRatio = elOffsetWidth / parentOffsetWidth;
       const exceptionEl = document.querySelector(exception);
-      exceptionEl.setAttribute('width', el.offsetWidth * ratio);
+      if (exceptionEl) {
+        exceptionEl.setAttribute('width', el.offsetWidth * ratio);
+      }
       timeout = setTimeout(() => {
         anime.set(el, { scale: ratio });
         if (exception) anime.set(exception, { scale: invertedRatio });

@@ -1,9 +1,9 @@
 import React from 'react';
-import AnimeLogo from '@/components/AnimeLogo';
-import Svgillustration from '@/components/Svgillustration';
-import HandWrittenSvgText from '@/components/HandWrittenSvgText';
+import AnimeLogo from '@/components/partials/demo/AnimeLogo';
+import Svgillustration from '@/components/partials/demo/Svgillustration';
+import HandWrittenSvgText from '@/components/partials/demo/HandWrittenSvgText';
 
-const Demo = () => (
+const DemoPage = () => (
   <>
     <div className="py-10 flex flex-col w-full items-center">
       <h2 className="py-5 text-blue-700 text-2xl font-extrabold">Logo Anime</h2>
@@ -29,4 +29,4 @@ export async function getStaticProps() {
   };
 }
 
-export default Demo;
+export default DemoPage;

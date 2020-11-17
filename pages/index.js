@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Link from 'next/link';
 import anime from 'animejs';
 
-const Index = () => {
+const HomePage = () => {
   useEffect(() => {
     anime
       .timeline()
@@ -104,4 +104,4 @@ export async function getStaticProps() {
   };
 }
 
-export default Index;
+export default HomePage;
